@@ -15,15 +15,15 @@ public class FirstSpringApplication {
     * @param args
     */
     public static void main(String[] args) {
-        SpringApplication.run(FirstSpringApplication.class, args)
-                .getBean(FirstSpringApplication.class).execute();
+        SpringApplication.run(FirstSpringApplication.class, args);
+                //.getBean(FirstSpringApplication.class).execute();
     }
 //    주입하는 곳(인터페이스)
-    @Autowired
-    Greet greet;
+    /*@Autowired
+    Greet greet;*/
 
 //    실행 메소드
-    private void execute() {
+    /*private void execute() {
         greet.greeting();
-    }
+    }*/
 }
